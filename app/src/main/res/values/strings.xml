@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">HealthPrognosis</string>
-    <string name="sign_up">New User? Sign up.</string>
+    <string name="sign_up">Sign in with Huawei</string>
     <string name="next">Next</string>
     <string name="password">Password</string>
     <string name="username">Username</string>
