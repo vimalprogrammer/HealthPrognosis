@@ -35,4 +35,7 @@ dependencies {
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    implementation 'com.huawei.hms:hwid:5.0.5.301'
+    implementation 'com.yarolegovich:sliding-root-nav:1.1.1'
 }
+apply plugin: 'com.huawei.agconnect'

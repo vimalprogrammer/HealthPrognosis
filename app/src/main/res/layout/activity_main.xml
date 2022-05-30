@@ -64,13 +64,15 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <Button
+                android:id="@+id/NextBtn"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="15dp"
-                android:text="@string/next" />
+                android:text="@string/next"
+                android:onClick="callnext"/>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
