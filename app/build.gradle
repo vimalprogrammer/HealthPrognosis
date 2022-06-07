@@ -37,5 +37,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
     implementation 'com.huawei.hms:hwid:5.0.5.301'
     implementation 'com.yarolegovich:sliding-root-nav:1.1.1'
+
+    implementation 'com.github.shrikanth7698:Custom-Navigation-Drawer:v0.0.1'
 }
 apply plugin: 'com.huawei.agconnect'

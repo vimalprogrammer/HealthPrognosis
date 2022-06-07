@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+<com.shrikanthravi.customnavigationdrawer2.widget.SNavigationDrawer android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MenuActivity"
-    android:orientation="horizontal"
-    android:background="@color/white">
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#fff"
-        app:titleTextColor="@color/pink"/>
-
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:navigationDrawerBackgroundColor="@android:color/white"
+    app:appbarTitleTextColor="@android:color/black"
+    app:HamMenuIconTintColor="@android:color/black"
+    app:appbarColor="@android:color/white"
+    app:primaryMenuItemTextColor="@android:color/black"
+    app:secondaryMenuItemTextColor="@android:color/black"
+    app:appbarTitleTextSize="7sp"
+    app:primaryMenuItemTextSize="7sp"
+    app:secondaryMenuItemTextSize="7sp"
+    android:id="@+id/navigationDrawer"
+    xmlns:android="http://schemas.android.com/apk/res/android">
     <FrameLayout
-        android:id="@+id/container"
+        android:id="@+id/frameLayout"
+        android:background="@android:color/white"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"/>
-</LinearLayout>
+        android:layout_height="match_parent"/>
+
+</com.shrikanthravi.customnavigationdrawer2.widget.SNavigationDrawer>

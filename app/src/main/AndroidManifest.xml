@@ -17,9 +17,7 @@
         android:theme="@style/Theme.HealthPrognosis">
         <activity
             android:name=".MenuActivity"
-            android:exported="true" >
-        </activity>
-
+            android:exported="false" />
         <activity
             android:name=".SplashScreen"
             android:exported="true">
@@ -29,11 +27,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-        </activity>
+            android:exported="true"></activity>
 
         <meta-data
             android:name="com.huawei.hms.client.channel.androidMarket"
