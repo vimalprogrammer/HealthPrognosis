@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/blueBlack"
+   >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/para_img"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/fever"/>
+        <TextView
+            android:id="@+id/para_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Disease Name"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/tanAccent"
+            android:layout_marginTop="7dp"
+            android:paddingLeft="10dp"
+            />
+        <TextView
+            android:id="@+id/para_des"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textColor="@color/tanAccent"
+            android:textSize="20dp"
+            android:text="@string/feverDES"
+           android:layout_marginBottom="15dp"
+            />
+    </LinearLayout>
+
+
+</ScrollView>

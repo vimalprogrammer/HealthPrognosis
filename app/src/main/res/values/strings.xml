@@ -5,4 +5,64 @@
     <string name="password">Password</string>
     <string name="username">Username</string>
     <string name="login">LOGIN</string>
+
+    <string name="fever_dis">"A fever is a body temperature that is higher than normal. A normal temperature can vary from person to person, but it is usually around 98.6 °F (37 °C)."</string>
+    <string name="stomach_ache">"Less serious causes of abdominal pain include constipation, irritable bowel syndrome, food allergies, lactose intolerance, food poisoning, and a stomach virus."</string>
+    <string name="leg_pain">Leg pain can be sharp, dull, numbing, tingling, burning, radiating, or aching. It can also be acute, meaning sudden and short term, or it can also be chronic and persistent.</string>
+    <string name="wrist_pain">Wrist pain is often caused by sprains or fractures from sudden injuries. But wrist pain can also result from long-term problems, such as repetitive stress, arthritis and carpal tunnel syndrome</string>
+    <string name="throat_pain">A sore throat is pain, scratchiness or irritation of the throat that often worsens when you swallow. The most common cause of a sore throat (pharyngitis) is a viral infection, such as a cold or the flu.</string>
+    <string name="eye_pain">Eye strain is a symptom caused by looking at something for a long time. Symptoms and signs include redness, light sensitivity, headaches, and blurred vision.</string>
+    <string name="headaches">Headache is pain in any region of the head. Headaches may occur on one or both sides of the head, be isolated to a certain location, radiate across the head from one point, or have a viselike quality</string>
+    <string name="foot_pain">Foot pain may be caused by many different diseases, deformities, biomechanical conditions, improper footwear, or injuries. Infectious diseases, viruses, fungi, and bacteria can cause foot pain</string>
+    <string name="compress">"A cool or warm compress. Soak a washcloth in either cool or warm water, wring it out, and then put it over the ear that's bothering you"</string>
+    <string name="nausea">A stomach distress with distaste for food and an urge to vomit experienced nausea during the cruise to Bermuda.Extreme disgust looked at the murder scene with growing nausea</string>
+
+    <string-array name="home_page_disease_name_list">
+        <item>Fever</item>
+        <item>Stomach ache</item>
+        <item>Leg Pain</item>
+        <item>Wrist Pain</item>
+        <item>Throat Pain</item>
+        <item>Eye Pain</item>
+        <item>Headaches</item>
+        <item>Foot Pain</item>
+        <item>Cool or Warm Compress</item>
+        <item>nausea</item>
+    </string-array>
+    <string-array name="home_page_disease_name_list_description">
+        <item>@string/fever_dis</item>
+        <item>@string/stomach_ache</item>
+        <item>@string/leg_pain</item>
+        <item>@string/wrist_pain</item>
+        <item>@string/throat_pain</item>
+        <item>@string/eye_pain</item>
+        <item>@string/headaches</item>
+        <item>@string/foot_pain</item>
+        <item>@string/compress</item>
+        <item>@string/nausea</item>
+    </string-array>
+    <string-array name="disease_name_Para_list">
+        <item>@string/feverDES</item>
+        <item>@string/stomachDES</item>
+        <item>@string/legPainDES</item>
+        <item>@string/wristPainDES</item>
+        <item>@string/ThroatPainDES</item>
+        <item>@string/EyePainDES</item>
+        <item>@string/HeadachesDES</item>
+        <item>@string/footPainDES</item>
+        <item>@string/CoolorWarmCompressDES</item>
+        <item>@string/nausea</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="check">Daily check</string>
+    <string name="ui_ux_designer">UI/UX Designer</string>
+    <string name="my_desc">I am Vimal, currently living in Trichy. I am the person who always worry about my health. In concerned with my profession, I always feel like I have Illness anxiety disorder, sometimes called hypochondriasis or health anxiety, is about worrying excessively in health. With this app I found the exact solution of my problem. I personally recommend my friends to follow this app.</string>
+    <string name="about_me">About Me</string>
+    <string name="contact">Contact</string>
+    <string name="skills">Skills</string>
+    <string name="Rate">Rate your health</string>
+    <string name="samplereview">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium bibendum sapien, ut euismod massa. Duis convallis sem sed turpis elementum auctor.</string>
 </resources>

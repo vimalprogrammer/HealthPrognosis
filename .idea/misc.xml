@@ -5,16 +5,27 @@
       <map>
         <entry key="..\:/Users/msvim/AndroidStudioProjects/HealthPrognosis/app/src/main/res/layout/activity_main.xml" value="0.14666666666666667" />
         <entry key="..\:/Users/msvim/AndroidStudioProjects/HealthPrognosis/app/src/main/res/layout/activity_splash_screen.xml" value="0.12" />
+        <entry key="app/src/main/res/drawable-v24/circular_grey_bordersolid.xml" value="0.12129629629629629" />
+        <entry key="app/src/main/res/drawable/circular_grey_bordersolid.xml" value="0.12129629629629629" />
+        <entry key="app/src/main/res/drawable/circularbordersolid.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/close_icon.xml" value="0.2" />
-        <entry key="app/src/main/res/layout/account_fragment.xml" value="0.5" />
+        <entry key="app/src/main/res/drawable/ic_arrow_back_24dp.xml" value="0.12129629629629629" />
+        <entry key="app/src/main/res/drawable/ic_call_24dp.xml" value="0.12129629629629629" />
+        <entry key="app/src/main/res/drawable/ic_email_24dp.xml" value="0.12129629629629629" />
+        <entry key="app/src/main/res/drawable/ic_location_24dp.xml" value="0.12129629629629629" />
+        <entry key="app/src/main/res/drawable/ic_notifications_white_24dp.xml" value="0.12129629629629629" />
+        <entry key="app/src/main/res/drawable/search_view_background.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/account_fragment.xml" value="0.2851851851851852" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.3411458333333333" />
         <entry key="app/src/main/res/layout/activity_menu.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.18541666666666667" />
         <entry key="app/src/main/res/layout/dashboard_fragment.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/dashboard_recycler_view_row.xml" value="0.33" />
         <entry key="app/src/main/res/layout/drawer_menu.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_disease_detailed_information.xml" value="0.3390625" />
         <entry key="app/src/main/res/layout/item_option.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/map_fragment.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/search_fragment.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/map_fragment.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/search_fragment.xml" value="0.22" />
       </map>
     </option>
   </component>

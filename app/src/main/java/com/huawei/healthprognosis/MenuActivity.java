@@ -7,9 +7,9 @@ import androidx.fragment.app.FragmentManager;
 import android.os.Bundle;
 
 import com.huawei.healthprognosis.fragment.AccountFragment;
-import com.huawei.healthprognosis.fragment.DashBoardFragment;
+import com.huawei.healthprognosis.fragment.DashBoard.DashBoardFragment;
 import com.huawei.healthprognosis.fragment.MapFragment;
-import com.huawei.healthprognosis.fragment.SearchFragment;
+import com.huawei.healthprognosis.fragment.Search.SearchFragment;
 import com.shrikanthravi.customnavigationdrawer2.data.MenuItem;
 import com.shrikanthravi.customnavigationdrawer2.widget.SNavigationDrawer;
 
@@ -53,10 +53,11 @@ public class MenuActivity extends AppCompatActivity {
         sNavigationDrawer.setOnMenuItemClickListener(new SNavigationDrawer.OnMenuItemClickListener() {
             @Override
             public void onMenuItemClicked(int position) {
-                System.out.println("Position "+position);
+                System.out.println("Position arun fuck"+position);
 
                 switch (position){
                     case 0:{
+
                         fragmentClass = DashBoardFragment.class;
                         break;
                     }
@@ -72,7 +73,6 @@ public class MenuActivity extends AppCompatActivity {
                         fragmentClass = AccountFragment.class;
                         break;
                     }
-
                 }
 
                 //Listener for drawer events such as opening and closing.
