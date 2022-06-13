@@ -16,14 +16,15 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void callnext(View view) {
-        new Handler().postDelayed(new Runnable(){
-            @Override
-            public void run() {
+       // new Handler().postDelayed(new Runnable()
+       // {
+           // @Override
+         //   public void run() {
                 /* Create an Intent that will start the Menu-Activity. */
                 Intent mainIntent = new Intent(MainActivity.this,MenuActivity.class);
                 MainActivity.this.startActivity(mainIntent);
                 MainActivity.this.finish();
-            }
-        }, SPLASH_DISPLAY_LENGTH);
+          //  }
+       // }, SPLASH_DISPLAY_LENGTH);
     }
 }
